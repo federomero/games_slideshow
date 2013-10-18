@@ -2,7 +2,8 @@ $(function(){
   $('#maximage').maximage({
     cycleOptions: {
       // Show a new image every 10 minutes
-      timeout: 10*60*1000
+      timeout: 10*60*1000,
+      random: true
     }
   });
 
